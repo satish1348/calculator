@@ -1,0 +1,33 @@
+.main{
+    border:1px solid rgb(231, 193, 193);
+    height:400px;
+    width: 350px;
+    align-content: center;
+    margin:auto;
+    margin-top:150px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://wallpapercave.com/dwp1x/wp9023713.jpg);
+}
+h1{
+    text-align: center;
+    color:rgb(232, 218, 205);
+    /* background-color: rgb(161, 148, 132); */
+}
+button{
+    background-color: rgb(241, 241, 176);
+    margin-top:5px;
+    height: 20px;
+    width:41px;
+    text-align:center;
+}
+input{
+    height:15px;
+    background-color: aquamarine;
+    
+}
+body{
+    background-color: rgb(224, 235, 168);
+    background-image:url(https://wallpapercave.com/uwp/uwp3839184.jpeg);
+    background-position: center;
+}

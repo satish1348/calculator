@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body bgcolor="pink">
+    <div id="center" class="main">
+        <h1>My simple calculator</h1>
+        <h3>Enter first number</h3>
+        <input type="number" placeholder="Enter first number" id="value1" >
+        <h3>Enter second number</h3>
+        <input type="number" placeholder="Enter second number" id="value2">
+        <br>
+        <button id="add" onclick=add()>+</button>
+        <button id="sub" onclick=sub()>-</button>
+        <button id="mul" onclick=mul()>*</button>
+        <button id="div" onclick=div()>/</button>
+        
+        <h3>Here see the answer</h3>
+        <p id="answer1">Answer</p>
+        <!-- <button id="bt1" onclick=add()>Answer</button> -->
+    </div>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
